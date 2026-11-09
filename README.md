@@ -6,4 +6,4 @@ PLAY UNITY :
 [https://play.unity.com/en/games/085913b3-bfcb-4ec7-95ee-5d89916e5334/felpudorace](https://play.unity.com/api/v1/games/game/085913b3-bfcb-4ec7-95ee-5d89916e5334/build/latest/frame)
 
 ### RESUMO:
-  Nosso projeto foi desenvolvido na Unity 6 utilizando C#. 
+  Nosso projeto foi desenvolvido na Unity 6 utilizando C#. O Felpudo's Race consiste em um infinite run 2d Plataforma com coletaveis e inimigos para desviar no caminho, o objetivo e coletar o maximo de frutinha possiveis enquanto desvia dos Lesmos que vão aparecendo pelo mapa, o jogador possui 3 vidas que o possibilitam de continuar jogando enquanto seu contador não chega a 0.
