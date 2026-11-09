@@ -25,7 +25,6 @@ public class GerenciadorJogo : MonoBehaviour
 
     private void Start()
     {
-        // Restaura a escala de tempo imediatamente no início da partida
         Time.timeScale = 1f;
 
         vidas = 3;
@@ -77,13 +76,13 @@ public class GerenciadorJogo : MonoBehaviour
         if (painelGameOver != null)
             painelGameOver.SetActive(true);
 
-        // Pausa a física e os cronômetros
+       
         Time.timeScale = 0f;
     }
 
     public void ReiniciarJogo()
     {
-        // Restaura a velocidade ANTES de recarregar a cena
+        
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

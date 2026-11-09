@@ -4,19 +4,19 @@ public class MovimentacaoRunner : MonoBehaviour
 {
 <<<<<<< HEAD
     [Header("ConfiguraÃ§Ãµes de Corrida")]
-    [SerializeField] private float forwardSpeed = 7f;     // Velocidade automÃ¡tica para a frente
-    [SerializeField] private float laneChangeSpeed = 15f; // Velocidade de transiÃ§Ã£o entre as pistas
-    [SerializeField] private float jumpForce = 12f;       // ForÃ§a do pulo
+    [SerializeField] private float forwardSpeed = 7f;     
+    [SerializeField] private float laneChangeSpeed = 15f; 
+    [SerializeField] private float jumpForce = 12f;       
 
     [Header("Alturas das Pistas (Ajuste no Inspector)")]
-    [SerializeField] private float alturaPistaBaixo = -2.5f; // PosiÃ§Ã£o Y exata da pista inferior
-    [SerializeField] private float alturaPistaMeio = -0.5f;  // PosiÃ§Ã£o Y exata da pista superior/meio
+    [SerializeField] private float alturaPistaBaixo = -2.5f; 
+    [SerializeField] private float alturaPistaMeio = -0.5f;  
 =======
-    [Header("Configurações de Corrida")]
-    [SerializeField] private float forwardSpeed = 7f;     // Velocidade automática para a frente
-    [SerializeField] private float laneDistance = 2.5f;   // Distância entre as pistas (Y ou X dependendo da visão, aqui usaremos o eixo Y para pistas verticais ou X para horizontais)
-    [SerializeField] private float laneChangeSpeed = 15f; // Velocidade de transição entre as pistas
-    [SerializeField] private float jumpForce = 12f;       // Força do pulo
+    [Header("Configuraï¿½ï¿½es de Corrida")]
+    [SerializeField] private float forwardSpeed = 7f;     
+    [SerializeField] private float laneDistance = 2.5f;   
+    [SerializeField] private float laneChangeSpeed = 15f; 
+    [SerializeField] private float jumpForce = 12f;       
 >>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
 
     private Rigidbody2D rb;
@@ -43,7 +43,7 @@ public class MovimentacaoRunner : MonoBehaviour
 <<<<<<< HEAD
         TrocarAnimacao("Correndo");
 =======
-        TrocarAnimacao("Andando"); // No runner, ele começa correndo
+        TrocarAnimacao("Andando"); // No runner, ele comeï¿½a correndo
 >>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
     }
 
@@ -74,9 +74,9 @@ public class MovimentacaoRunner : MonoBehaviour
             if (targetLane < 0) targetLane = 0; // Limita na pista inferior
         }
 
-        // 2. Solicitação de Pulo (Barra de Espaço)
-        // Nota: Para runners simples, às vezes removemos a checagem rigorosa de chão para permitir pulo duplo ou fluidez, 
-        // mas mantemos uma tolerância básica se necessário.
+        // 2. Solicitaï¿½ï¿½o de Pulo (Barra de Espaï¿½o)
+        // Nota: Para runners simples, ï¿½s vezes removemos a checagem rigorosa de chï¿½o para permitir pulo duplo ou fluidez, 
+        // mas mantemos uma tolerï¿½ncia bï¿½sica se necessï¿½rio.
 >>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
         if (Input.GetKeyDown(KeyCode.Space) && Mathf.Abs(rb.linearVelocity.y) < 0.1f)
         {
@@ -86,7 +86,7 @@ public class MovimentacaoRunner : MonoBehaviour
 <<<<<<< HEAD
         // 3. Controle de AnimaÃ§Ã£o
 =======
-        // 3. Controle de Animação simples
+        // 3. Controle de Animaï¿½ï¿½o simples
 >>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
         bool noChao = Mathf.Abs(rb.linearVelocity.y) < 0.1f;
 
@@ -110,13 +110,13 @@ public class MovimentacaoRunner : MonoBehaviour
         float newY = Mathf.Lerp(rb.position.y, targetY, laneChangeSpeed * Time.fixedDeltaTime);
 
 =======
-        // Calcula a posição Y alvo baseada na pista selecionada
+        // Calcula a posiï¿½ï¿½o Y alvo baseada na pista selecionada
         float targetY = (targetLane - 1) * laneDistance; // Ex: Pista 0 = -2.5, Pista 1 = 0, Pista 2 = 2.5
 
-        // Interpola suavemente a posição vertical para a pista escolhida
+        // Interpola suavemente a posiï¿½ï¿½o vertical para a pista escolhida
         float newY = Mathf.Lerp(rb.position.y, targetY, laneChangeSpeed * Time.fixedDeltaTime);
 
-        // Mantém a velocidade constante para a frente no eixo X e aplica o movimento da pista no eixo Y
+        // Mantï¿½m a velocidade constante para a frente no eixo X e aplica o movimento da pista no eixo Y
 >>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
         float currentYVelocity = rb.linearVelocity.y;
 
@@ -131,7 +131,7 @@ public class MovimentacaoRunner : MonoBehaviour
 <<<<<<< HEAD
         // Move o personagem no eixo X e ajusta o Y para a pista correta
 =======
-        // Força a posição exata da pista suavemente sem travar a física do pulo
+        // Forï¿½a a posiï¿½ï¿½o exata da pista suavemente sem travar a fï¿½sica do pulo
 >>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
         rb.MovePosition(new Vector2(rb.position.x + forwardSpeed * Time.fixedDeltaTime, newY));
     }

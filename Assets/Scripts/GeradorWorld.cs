@@ -23,7 +23,7 @@ public class GeradorWorld : MonoBehaviour
 
     private void Update()
     {
-        // Se a referência ao Player for perdida ao recarregar a cena, reconecta via Tag
+        
         if (playerTransform == null)
         {
             GameObject p = GameObject.FindGameObjectWithTag("Player");
