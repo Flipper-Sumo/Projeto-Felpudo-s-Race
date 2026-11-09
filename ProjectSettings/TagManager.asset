@@ -2,9 +2,14 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
+<<<<<<< HEAD
   serializedVersion: 3
   tags:
   - Inimigo
+=======
+  serializedVersion: 2
+  tags: []
+>>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
   layers:
   - Default
   - TransparentFX
@@ -42,5 +47,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< HEAD
   m_RenderingLayers:
   - Default
+=======
+>>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b

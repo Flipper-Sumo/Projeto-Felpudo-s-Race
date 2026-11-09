@@ -1,13 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!1102 &-5413148537787377711
+=======
+--- !u!1102 &-4236418479466008351
+>>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: Correndo
+=======
+  m_Name: correndo
+>>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -38,7 +46,11 @@ AnimatorController:
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
+<<<<<<< HEAD
     m_StateMachine: {fileID: 1735456706078911284}
+=======
+    m_StateMachine: {fileID: 2397855613909443574}
+>>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
     m_Mask: {fileID: 0}
     m_Motions: []
     m_Behaviours: []
@@ -48,7 +60,11 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+<<<<<<< HEAD
 --- !u!1107 &1735456706078911284
+=======
+--- !u!1107 &2397855613909443574
+>>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
 AnimatorStateMachine:
   serializedVersion: 6
   m_ObjectHideFlags: 1
@@ -58,11 +74,19 @@ AnimatorStateMachine:
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
+<<<<<<< HEAD
     m_State: {fileID: -5413148537787377711}
     m_Position: {x: 200, y: 0, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8478736393649619701}
     m_Position: {x: 389.87964, y: 91.23631, z: 0}
+=======
+    m_State: {fileID: -4236418479466008351}
+    m_Position: {x: 280, y: 120, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 7585256812921907966}
+    m_Position: {x: 520, y: 120, z: 0}
+>>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -72,8 +96,13 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+<<<<<<< HEAD
   m_DefaultState: {fileID: -5413148537787377711}
 --- !u!1102 &8478736393649619701
+=======
+  m_DefaultState: {fileID: -4236418479466008351}
+--- !u!1102 &7585256812921907966
+>>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1

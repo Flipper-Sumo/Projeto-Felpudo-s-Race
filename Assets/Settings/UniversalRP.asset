@@ -78,7 +78,10 @@ MonoBehaviour:
   m_UseAdaptivePerformance: 1
   m_ColorGradingMode: 0
   m_ColorGradingLutSize: 32
+<<<<<<< HEAD
   m_AllowPostProcessAlphaOutput: 0
+=======
+>>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
   m_UseFastSRGBLinearConversion: 0
   m_SupportDataDrivenLensFlare: 1
   m_SupportScreenSpaceLensFlare: 1
@@ -99,6 +102,7 @@ MonoBehaviour:
     obsoleteHasProbeVolumes:
       m_Keys: []
       m_Values: 
+<<<<<<< HEAD
   m_PrefilteringModeMainLightShadows: 4
   m_PrefilteringModeAdditionalLight: 4
   m_PrefilteringModeAdditionalLightShadows: 0
@@ -131,6 +135,37 @@ MonoBehaviour:
   m_PrefilterUseLegacyLightmaps: 0
   m_PrefilterReflectionProbeBlending: 1
   m_PrefilterReflectionProbeBoxProjection: 1
+=======
+  m_PrefilteringModeMainLightShadows: 1
+  m_PrefilteringModeAdditionalLight: 4
+  m_PrefilteringModeAdditionalLightShadows: 1
+  m_PrefilterXRKeywords: 0
+  m_PrefilteringModeForwardPlus: 1
+  m_PrefilteringModeDeferredRendering: 1
+  m_PrefilteringModeScreenSpaceOcclusion: 1
+  m_PrefilterDebugKeywords: 0
+  m_PrefilterWriteRenderingLayers: 0
+  m_PrefilterHDROutput: 0
+  m_PrefilterSSAODepthNormals: 0
+  m_PrefilterSSAOSourceDepthLow: 0
+  m_PrefilterSSAOSourceDepthMedium: 0
+  m_PrefilterSSAOSourceDepthHigh: 0
+  m_PrefilterSSAOInterleaved: 0
+  m_PrefilterSSAOBlueNoise: 0
+  m_PrefilterSSAOSampleCountLow: 0
+  m_PrefilterSSAOSampleCountMedium: 0
+  m_PrefilterSSAOSampleCountHigh: 0
+  m_PrefilterDBufferMRT1: 0
+  m_PrefilterDBufferMRT2: 0
+  m_PrefilterDBufferMRT3: 0
+  m_PrefilterSoftShadowsQualityLow: 0
+  m_PrefilterSoftShadowsQualityMedium: 0
+  m_PrefilterSoftShadowsQualityHigh: 0
+  m_PrefilterSoftShadows: 0
+  m_PrefilterScreenCoord: 0
+  m_PrefilterNativeRenderPass: 0
+  m_PrefilterUseLegacyLightmaps: 0
+>>>>>>> c097bbd91c46d8965fa10d939de6d5986c5d3e6b
   m_ShaderVariantLogLevel: 0
   m_ShadowCascades: 0
   m_Textures:
